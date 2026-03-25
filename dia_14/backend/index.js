@@ -8,7 +8,7 @@ const userRouter = require("./routers/userRouter");
 const profileRouter = require("./routers/profileRouters");
 const notFound = require ("./middlewares/404");
 const internalServerError = require ("./middlewares/500");
-// const authMiddleware = require("./middlewares/auth");
+const authMiddleware = require("./middlewares/auth");
 
 dotenv.config();
 
